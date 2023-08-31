@@ -1,5 +1,5 @@
 # Kiitian Finder 😋
-Find a kiit student `Name`, `Email` and `Student Number` using his roll number only.
+Find a kiit student `Name`, `Email` and `Student Number` using his/her roll number only.
 
 # How to run? 🤨
 
