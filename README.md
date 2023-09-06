@@ -12,4 +12,15 @@ cd kiitian-finder
 node kiit.js 220XXXXX # <--this is your kiit roll number
 ```
 
+# How to find faculties now? 🤨
+
+For getting faculties you need to install some extra modules. Paste this code intor your Commmand Prompt or Terminal to do all in once.
+```bash
+git clone https://github.com/erucix/kiitian-finder
+cd kiitian-finder
+npm install jsdom got
+node faculty.js  # <---- Saves output in faculty.json file.
+```
+**Note**: Running faculty search will cost you some time since we are fetching every staff details from the site. 
+
 ⚠️ **Desclaimer**: This is only for recreational and educational purpose and I am in no way responsible for the misconduct done with the use of this program.
