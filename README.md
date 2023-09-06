@@ -1,5 +1,8 @@
 # Kiitian Finder 😋
 Find a kiit student `Name`, `Email` and `Student Number` using his/her roll number only.
+Now also find staff `Email`, `Social Profiles` and `Institution Mail`.
+
+This can be helpful if you need to find some staff or student in case of emergencies OR you are creating a database that includes staff and student details.
 
 # How to run? 🤨
 
