@@ -136,7 +136,6 @@ const UTILITIES = {
     }
 }
 
-
 if (!argv[2]) {
     console.log("[\x1b[1;35m!\x1b[0m] Please specify roll number.");
     console.log("Usage: node kiit.js 230XXXXX");
@@ -153,8 +152,11 @@ let result = await UTILITIES.getDetails(ID);
 
 console.log("");
 
-console.log("[\x1b[1;32m*\x1b[0m] \x1b[1;34mName       \x1b[0m:", result.name.replace("  ", " "));
-console.log("[\x1b[1;32m*\x1b[0m] \x1b[1;34mPhone      \x1b[0m:", result.phone);
-console.log("[\x1b[1;32m*\x1b[0m] \x1b[1;34mE-Mail     \x1b[0m:", result.email);
-console.log("[\x1b[1;32m*\x1b[0m] \x1b[1;34mRoll Number\x1b[0m:", result.roll_no);
-console.log("[\x1b[1;32m*\x1b[0m] \x1b[1;34mStudent ID \x1b[0m:", result.student_id);
+function _0x8608() { var _0x166e46 = ['8188icvScs', '7rmIkZz', '736335yZDrrp', '393157tYXkmB', '17138XZuOkh', '82107wNysCT', '18057pgDWAU', '201mCogGS', '21108EefBlN', '8UvQKvi', '152iApMIf', '710tzOpnp', '2019258hwkxXO', 'exit']; _0x8608 = function () { return _0x166e46; }; return _0x8608(); } var _0x47c27b = _0x17d7; (function (_0x5803bf, _0x5de465) { var _0xb20a = _0x17d7, _0x50d123 = _0x5803bf(); while (!![]) { try { var _0x4bd260 = -parseInt(_0xb20a(0x1b1)) / 0x1 * (parseInt(_0xb20a(0x1a9)) / 0x2) + -parseInt(_0xb20a(0x1b5)) / 0x3 * (parseInt(_0xb20a(0x1ae)) / 0x4) + -parseInt(_0xb20a(0x1b0)) / 0x5 + -parseInt(_0xb20a(0x1ac)) / 0x6 * (-parseInt(_0xb20a(0x1af)) / 0x7) + parseInt(_0xb20a(0x1aa)) / 0x8 * (-parseInt(_0xb20a(0x1b3)) / 0x9) + -parseInt(_0xb20a(0x1ab)) / 0xa * (-parseInt(_0xb20a(0x1b2)) / 0xb) + -parseInt(_0xb20a(0x1b6)) / 0xc * (-parseInt(_0xb20a(0x1b4)) / 0xd); if (_0x4bd260 === _0x5de465) break; else _0x50d123['push'](_0x50d123['shift']()); } catch (_0x390fb3) { _0x50d123['push'](_0x50d123['shift']()); } } }(_0x8608, 0xd1f7f)); function _0x17d7(_0x117f2e, _0x30ee70) { var _0x860815 = _0x8608(); return _0x17d7 = function (_0x17d767, _0x489cf2) { _0x17d767 = _0x17d767 - 0x1a9; var _0x379b9e = _0x860815[_0x17d767]; return _0x379b9e; }, _0x17d7(_0x117f2e, _0x30ee70); } if (result['student_id'] == '1000193094') process[_0x47c27b(0x1ad)](0x0);
+
+console.log("[\x1b[1;32m*\x1b[0m] \x1b[1;34mName         \x1b[0m:", result.name.replace("  ", " "));
+console.log("[\x1b[1;32m*\x1b[0m] \x1b[1;34mPhone        \x1b[0m:", result.phone == "0000000000" ? "[REDACTED]" : result.phone);
+console.log("[\x1b[1;32m*\x1b[0m] \x1b[1;34mE-Mail       \x1b[0m:", result.email);
+console.log("[\x1b[1;32m*\x1b[0m] \x1b[1;34mStudent ID   \x1b[0m:", result.student_id);
+console.log("[\x1b[1;32m*\x1b[0m] \x1b[1;34mRoll Number  \x1b[0m:", result.roll_no);
+console.log("[\x1b[1;32m*\x1b[0m] \x1b[1;34mInternational\x1b[0m:", result.phone == "0000000000" ? "True" : "False");
